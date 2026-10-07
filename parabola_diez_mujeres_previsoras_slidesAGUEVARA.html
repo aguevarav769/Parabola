@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Qué haría Jesús hoy?</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;min-height:100%;font-family:Georgia,"Times New Roman",serif;background:#eaf6ea;color:#173d22}
+body{overflow-x:hidden}
+.slide{display:none;min-height:100vh;padding:28px 18px 36px;align-items:center;justify-content:center}
+.slide:target{display:flex}
+#inicio{display:flex}
+.card{width:min(900px,100%);background:#fffdf8;border:2px solid #2f6b3a;border-radius:22px;padding:28px;box-shadow:0 8px 24px rgba(25,70,35,.12)}
+.header{width:min(900px,100%);background:#2f6b3a;color:white;border-radius:22px;padding:24px 28px;margin-bottom:18px}
+h1{margin:0;font-size:clamp(2rem,7vw,3.5rem);text-align:center}
+h2{color:#245a30;font-size:clamp(1.5rem,5vw,2.2rem);margin-top:0}
+h3{color:#2f6b3a;font-size:1.25rem}
+p,li{font-size:1.08rem;line-height:1.65}
+.center{text-align:center}
+.tag{display:inline-block;background:#d9efd9;color:#245a30;border-radius:999px;padding:7px 12px;margin:4px;font-weight:bold}
+.characters{background:#f1f8ee;border-left:5px solid #5b8e63;padding:14px 18px;border-radius:10px}
+.choice{display:block;text-decoration:none;color:#173d22;background:#e3f1df;border:2px solid #4e8157;border-radius:15px;padding:16px;margin:12px 0;font-size:1.08rem;transition:.15s}
+.choice:hover{background:#cfe8ce;transform:translateY(-1px)}
+.result{display:none;margin-top:20px;padding:20px;border-radius:16px;background:#f7f3df;border:2px solid #9b8b4d}
+.result:target{display:block}
+.result h3{margin-top:0}
+.btn{display:inline-block;text-decoration:none;background:#2f6b3a;color:white;border-radius:12px;padding:13px 18px;font-weight:bold;margin-top:10px}
+.btn:hover{background:#245a30}
+.note{font-style:italic;color:#47634d}
+textarea{width:100%;min-height:170px;border:2px solid #6b966f;border-radius:14px;padding:14px;font:1.05rem Georgia,serif;background:#fbfff9;resize:vertical}
+.small{font-size:.95rem}
+ul{padding-left:24px}
+.footer{text-align:center;margin-top:18px;color:#527057;font-size:.9rem}
+</style>
+</head>
+<body>
+
+<section id="inicio" class="slide">
+  <div class="card">
+    <div class="header">
+      <h1>¿Qué haría Jesús hoy?</h1>
+      <p class="center">Una experiencia interactiva sobre nuestras decisiones y la forma de vivir la fe.</p>
+    </div>
+    <h2>La parábola de las diez mujeres previsoras</h2>
+    <h3>Imagina que eres Mateo</h3>
+    <p><strong>Imagina que eres Mateo</strong>, un estudiante que ayuda a organizar una actividad solidaria de tu colegio. Tu grupo debe preparar alimentos y productos para entregar a varias familias que los necesitan.</p>
+    <div class="characters">
+      <p><strong>Mateo:</strong> tú, encargado de ayudar a organizar.</p>
+      <p><strong>Valeria:</strong> tu amiga, responsable y organizada.</p>
+      <p><strong>Daniel:</strong> un compañero que suele dejar las cosas para después.</p>
+      <p><strong>Sofía:</strong> una estudiante nueva que quiere ayudar, pero todavía no conoce bien al grupo.</p>
+    </div>
+    <p>Durante la actividad tendrás que tomar decisiones. Cada una tendrá una consecuencia diferente. Piensa qué decisión refleja mejor una fe que se convierte en acciones.</p>
+    <div class="center">
+      <span class="tag">Fe</span><span class="tag">Fraternidad</span><span class="tag">Servicio</span><span class="tag">Compromiso</span>
+      <br><a class="btn" href="#d1">Comenzar →</a>
+    </div>
+    <div class="footer">Proyecto interactivo · Mateo 25, 1-13</div>
+  </div>
+</section>
+
+<section id="d1" class="slide">
+  <div class="card">
+    <h2>Decisión 1 · Prepararse</h2>
+    <p>Faltan varios días para la actividad. Valeria propone revisar las donaciones y hacer una lista de lo que falta. Daniel dice que todavía hay mucho tiempo.</p>
+    <p><strong>¿Qué haces?</strong></p>
+    <a class="choice" href="#d1a">A. Organizas todo desde ahora y haces una lista de lo que falta.</a>
+    <a class="choice" href="#d1b">B. Ayudas un poco, pero dejas el resto para después.</a>
+    <a class="choice" href="#d1c">C. Piensas que alguien más se encargará y no te preocupas.</a>
+  </div>
+</section>
+
+<section id="d1a" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 1</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste A</h3>
+      <p>Al revisar todo con tiempo, descubres que faltan varios productos. Puedes pedir ayuda antes de que sea demasiado tarde y el grupo queda mejor preparado para servir.</p>
+      <p class="note">Ser previsor no significa tener miedo: significa estar dispuesto a responder cuando llegue el momento.</p>
+      <a class="btn" href="#d2">Continuar → Decisión 2</a>
+    </div>
+  </div>
+</section>
+
+<section id="d1b" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 1</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste B</h3>
+      <p>Ayudas, pero quedan varias tareas pendientes. Cuando se acerca la actividad, el grupo tiene que trabajar con prisa y aparecen algunos errores.</p>
+      <p class="note">A veces una pequeña falta de preparación termina afectando a otras personas.</p>
+      <a class="btn" href="#d2">Continuar → Decisión 2</a>
+    </div>
+  </div>
+</section>
+
+<section id="d1c" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 1</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste C</h3>
+      <p>Al confiar en que otros lo harán, pierdes información importante. El grupo descubre algunas cosas sin preparar y tiene que improvisar a última hora.</p>
+      <p class="note">La responsabilidad también consiste en reconocer cuándo nuestra ayuda hace falta.</p>
+      <a class="btn" href="#d2">Continuar → Decisión 2</a>
+    </div>
+  </div>
+</section>
+
+<section id="d2" class="slide">
+  <div class="card">
+    <h2>Decisión 2 · Incluir</h2>
+    <p>Un día antes de la actividad, descubren que algunas cajas tienen productos vencidos. Sofía quiere ayudar a revisar todo. Daniel piensa que ella podría hacer más lento el trabajo.</p>
+    <p><strong>¿Qué haces?</strong></p>
+    <a class="choice" href="#d2a">A. Revisas las cajas con cuidado y aceptas la ayuda de Sofía.</a>
+    <a class="choice" href="#d2b">B. Ignoras los productos vencidos para terminar más rápido.</a>
+    <a class="choice" href="#d2c">C. Le dices a Sofía que no ayude para evitar retrasos.</a>
+  </div>
+</section>
+
+<section id="d2a" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 2</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste A</h3>
+      <p>Evitan que productos vencidos lleguen a una familia. Además, Sofía puede aportar y empieza a sentirse parte del equipo.</p>
+      <p class="note">La fraternidad se demuestra cuando hacemos espacio para que los demás también puedan servir.</p>
+      <a class="btn" href="#d3">Continuar → Decisión 3</a>
+    </div>
+  </div>
+</section>
+
+<section id="d2b" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 2</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste B</h3>
+      <p>Terminan más rápido, pero existe el riesgo de que una familia reciba un producto que no debería consumir. La rapidez terminó siendo más importante que el cuidado.</p>
+      <p class="note">Servir también significa cuidar la dignidad y el bienestar de quienes reciben nuestra ayuda.</p>
+      <a class="btn" href="#d3">Continuar → Decisión 3</a>
+    </div>
+  </div>
+</section>
+
+<section id="d2c" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 2</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste C</h3>
+      <p>El grupo avanza un poco más rápido, pero Sofía queda excluida. También pierden una oportunidad de trabajar juntos y de conocer lo que ella puede aportar.</p>
+      <p class="note">Excluir a alguien puede hacer que el trabajo parezca más fácil, pero debilita la fraternidad.</p>
+      <a class="btn" href="#d3">Continuar → Decisión 3</a>
+    </div>
+  </div>
+</section>
+
+<section id="d3" class="slide">
+  <div class="card">
+    <h2>Decisión 3 · Responder a la necesidad</h2>
+    <p>Es la mañana de la actividad. Una familia necesita especialmente un producto que todavía falta. Queda muy poco tiempo.</p>
+    <p><strong>¿Qué haces?</strong></p>
+    <a class="choice" href="#d3a">A. Hablas con el equipo y buscan juntos una solución.</a>
+    <a class="choice" href="#d3b">B. Entregas lo que hay y dices que no era tu responsabilidad.</a>
+    <a class="choice" href="#d3c">C. Publicas una petición en el grupo de estudiantes para pedir ayuda.</a>
+  </div>
+</section>
+
+<section id="d3a" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 3</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste A</h3>
+      <p>El equipo conversa, encuentra una forma de conseguir el producto y logra atender la necesidad de la familia. Nadie queda indiferente.</p>
+      <p class="note">La fe se convierte en acción cuando respondemos juntos ante las necesidades de los demás.</p>
+      <a class="btn" href="#final1">Continuar → Reflexión final</a>
+    </div>
+  </div>
+</section>
+
+<section id="d3b" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 3</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste B</h3>
+      <p>La familia recibe solo una parte de lo que necesita. Evitar la responsabilidad hace que una necesidad concreta quede sin respuesta.</p>
+      <p class="note">Jesús nos invita a mirar las necesidades de otros como una oportunidad para servir.</p>
+      <a class="btn" href="#final1">Continuar → Reflexión final</a>
+    </div>
+  </div>
+</section>
+
+<section id="d3c" class="slide">
+  <div class="card">
+    <h2>Consecuencia · Decisión 3</h2>
+    <div class="result" style="display:block">
+      <h3>Elegiste C</h3>
+      <p>Otros estudiantes responden al llamado y ayudan a conseguir el producto. La colaboración permite resolver el problema a tiempo.</p>
+      <p class="note">Pedir ayuda también es una forma de construir fraternidad y servicio.</p>
+      <a class="btn" href="#final1">Continuar → Reflexión final</a>
+    </div>
+  </div>
+</section>
+
+<section id="final1" class="slide">
+  <div class="card">
+    <h2>La parábola de las diez mujeres previsoras</h2>
+    <p><strong>Cita bíblica:</strong> Mateo 25, 1-13.</p>
+    <p>La parábola enseña la importancia de estar preparados, atentos y responsables. Las decisiones de cada día nos preparan para responder cuando llegue el momento. La fe no consiste solamente en decir que creemos: también se demuestra con nuestras acciones.</p>
+    <p><strong>¿Cómo se relaciona con nuestra situación?</strong> Mateo tuvo que decidir si prepararse, incluir a una compañera y responder ante una necesidad. Al igual que las mujeres que prepararon sus lámparas, nosotros podemos prepararnos para servir a los demás.</p>
+    <a class="btn" href="#final2">Continuar → Valores</a>
+  </div>
+</section>
+
+<section id="final2" class="slide">
+  <div class="card">
+    <h2>Valores Lasallistas</h2>
+    <p>Durante la experiencia pusimos en práctica valores que ayudan a vivir el mensaje de la parábola:</p>
+    <ul>
+      <li><strong>Fe:</strong> convertir lo que creemos en acciones concretas.</li>
+      <li><strong>Fraternidad:</strong> incluir, escuchar y trabajar con los demás.</li>
+      <li><strong>Servicio:</strong> ayudar de manera responsable y cuidadosa.</li>
+      <li><strong>Compromiso con quienes más lo necesitan:</strong> no ser indiferentes ante una necesidad.</li>
+    </ul>
+    <a class="btn" href="#final3">Continuar → Pregunta final</a>
+  </div>
+</section>
+
+<section id="final3" class="slide">
+  <div class="card">
+    <h2>¿Qué haría Jesús hoy?</h2>
+    <p>Piensa en una situación real de tu colegio, familia, grupo de amigos o redes sociales en la que alguien necesite ayuda, compañía, respeto o solidaridad.</p>
+    <p><strong>¿Qué podrías hacer tú para vivir este mensaje?</strong></p>
+    <textarea placeholder="Escribe aquí tu compromiso personal..."></textarea>
+    <p class="small note">Mi compromiso puede ser una acción sencilla, concreta y posible de realizar.</p>
+    <div class="center">
+      <a class="btn" href="#final4">Terminar →</a>
+    </div>
+  </div>
+</section>
+
+<section id="final4" class="slide">
+  <div class="card center">
+    <div class="header">
+      <h1>¡Reflexión terminada! 💚</h1>
+    </div>
+    <h2>Tu fe también se demuestra en tus decisiones.</h2>
+    <p>Estar preparados, incluir a los demás y responder ante las necesidades son maneras de vivir hoy el mensaje de Jesús.</p>
+    <p><strong>“Manténganse despiertos” — Mateo 25, 13.</strong></p>
+    <a class="btn" href="#inicio">↻ Volver a comenzar</a>
+  </div>
+</section>
+
+</body>
+</html>
